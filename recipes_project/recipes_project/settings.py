@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'recipes_app',
-    'rest_framework_swagger',
+    'drf_yasg',
     'corsheaders',
 ]
 

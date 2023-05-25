@@ -12,5 +12,3 @@ class CategoryViewSet(viewsets.ReadOnlyModelViewSet):
 class RecipeViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Recipe.objects.all()
     serializer_class = RecipeSerializer
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['category']
